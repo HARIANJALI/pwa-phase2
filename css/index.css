@@ -1,0 +1,45 @@
+body{
+background:pink;
+}
+  header{
+  background: #85C1E9  ;
+  text-align: center;
+  font-style: oblique;
+  font-weight: 40px;
+}
+img{
+  width:30%;
+  height:30%;
+  float:right;
+/*  text-align: right;*/
+}
+a{
+  float:right;
+  text-align: right;
+}
+header{
+  border-radius:2%;
+  border:1px solid #38E707  ;
+}
+
+.child{
+  background-color:#E7E73C  ;
+width:20%;
+padding:1%;
+margin:1%;
+border-radius:2%;
+text-align: center;
+display:flex;
+border:2px solid red;
+justify-content: center;
+  }
+  .child img{
+width:200px;
+height:200px;
+  }
+.link{
+  /* text-decoration:none; */
+  /* background-color:pink; */
+  color:#D0100A;
+
+}

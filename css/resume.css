@@ -1,0 +1,41 @@
+img{
+  width:20%;
+  height:20%;
+}
+body{
+  background:#85C1E9  ;
+}
+
+table{
+  width:100%;
+  font-size:40px;
+}
+table th,td{
+  border:1px solid black;
+  border-collapse: collapse;
+  border-color:red ;
+  font-size: 20px;
+}
+table tr:nth-child(even){
+  background:#E7D907  ;
+}
+.parent{
+  background:#1ABC9C  ;
+  display: flex;
+justify-content: center;
+  margin: 5%;
+  width:80%;
+  padding: 3%;
+  border: 2px solid #E70A07 ;
+  border-radius: 3%
+}
+.left,.right{
+  background:#A848A1;
+  border-radius: 3%;
+  width:50%;
+  height:40%;
+  padding: 3%;
+  margin: 2%;
+  text-align:center;
+  border: 2px solid #E70A07 ;
+}

@@ -1,0 +1,51 @@
+body{
+  background-image: url();
+
+  }
+  h2{
+
+    font-color:#E74C3C;
+  }
+.parent{
+  width: 90%;
+  border: 2px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+img{
+  width:20%;
+  height:20%;
+
+}
+.career,.skills{
+  width:90%;
+  border: 2px solid blue;
+  margin:2%;
+  padding:3%;
+  text-align: center;
+  background:pink;
+  border-radius:1%;
+}
+.details,.edu,.inter,.sch{
+  width:40%;
+  border: 2px solid green;
+  margin:2%;
+  padding:2%;
+  text-align: center;
+  background:pink;
+  border-radius: 5%;
+  border-style: dashed;
+}
+
+
+input,select{
+  width:80%;
+  margin:2%;
+}
+#button{
+  font-weight: bold;
+  font-size:20px;
+  margin:2%;
+
+}
